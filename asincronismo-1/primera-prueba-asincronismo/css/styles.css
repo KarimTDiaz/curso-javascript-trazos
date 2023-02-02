@@ -1,0 +1,56 @@
+:root{
+    --primary-font: 'Manrope', sans-serif;
+    --light-cyan:hsl(193, 38%, 86%);
+    --neon-green:hsl(150, 100%, 66%);
+    --grayish-blue:hsl(217, 19%, 38%);
+    --dark-grayish-blue:hsl(217, 19%, 24%);
+    --dark-blue:hsl(218, 23%, 16%);
+}
+
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: var(--dark-blue);
+    font-family: var(--primary-font);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+.card{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 200px;
+    max-height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--dark-grayish-blue);
+}
+.button{
+    position: absolute;
+    bottom:0;
+    width: 25px;
+    padding: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--neon-green);
+    transform: translateY(50%);
+}
+.divisor{
+    
+}
+.text{
+    color:var(--light-cyan);
+}
+
+.text--advice{
+    font-size: 0.5rem;
+    letter-spacing: 0.3rem;
+    color: var(--neon-green);
+}
+

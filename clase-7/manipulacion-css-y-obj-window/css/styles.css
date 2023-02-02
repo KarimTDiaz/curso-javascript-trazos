@@ -1,0 +1,23 @@
+:root{
+    --bar-width:0;
+}
+
+body{
+    min-height: 1000vh;
+    background-color: grey;
+    margin: 0;
+    position: relative;
+}
+
+.title{
+    position: fixed;
+}
+
+.bar{
+    position: fixed;
+    height: 20px;
+    background-color: red;
+    width: var(--bar-width);
+    
+}
+
